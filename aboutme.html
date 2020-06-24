@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="container">
-    <div class="">
+    <div class="intro">
         <h1>About Rachel Aitaru</h1>
-        <p>My name is Rachel and I am a social introvert,</p>
+        <p>My name is Rachel and I am <strong>creative</strong>, <strong>adaptable</strong> and a <strong>social introvert</strong>.</p>
         <hr/>
     </div>
-    <div class="">
-        <p>Classes I am taking at MIU:</p>
+    <div class="sections">
+        <h3>Classes I am taking at MIU:</h3>
         <ul>
             <li>CS522 - Fundamental Programming Practices</li>
             <li>CS401 - Modern Programming Practices</li>
@@ -23,14 +24,52 @@
             <li>CS544 - Enterprise Architecture</li>
         </ul>
     </div>
-    <div>
-        <p>My Favorite movies</p>
-        <ol>
-            <li>3 idiots(<a href="https://www.imdb.com/title/tt1187043/">IMDB</a>)</li>
-            <li>The Empress Ki(IMDB)</li>
-            <li>Game of Thrones(IMDB)</li>
+    <div class="sections">
+        <h3>My Favorite movies</h3>
+        <ol reversed>
+            <li>3 idiots(<a href="https://www.imdb.com/title/tt1187043/">IMDB</a>)
+                <dl>
+                    <dt>Director</dt>
+                    <dd>Rajkumar Hirani</dd>
+                    <dt>Genre</dt>
+                    <dd>Comedy, Drama</dd>
+                    <dt>Tagline</dt>
+                    <dd>Don't be Stupid. Be an I.D.I.O.T.</dd>
+                    <dt>Plot outline</dt>
+                    <dd>Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them "idiots".</dd>
+                </dl>
+            </li>
+            <li>The Empress Ki(<a href="https://www.imdb.com/title/tt3322566/">IMDB</a>)</li>
+            <li>Game of Thrones(<a href="https://www.imdb.com/title/tt0944947/">IMDB</a>)</li>
         </ol>
     </div>
+    <div class="sections">
+        <h3>My moods</h3>
+        <div class="clearfix">
+        <div class="mood">
+        <p>happy: &nbsp;<img class="project-img" src="images/happy.jpg" alt="happy me" width="150" height="190"> &nbsp;</p>
+        </div>
+        <div class="mood">
+        <p> &nbsp;sad: &nbsp;<img class="project-img" src="images/sad.jpg" alt="sad me" width="150" height="190"></p>
+        </div>
+        </div>
+
+    </div>
+    <div class="sections">
+        <h3>Fun facts about my neighbors</h3>
+        <ul>
+            <li>Jasper: Very <em>hilarious</em> and <em>talkative</em></li>
+            <li>Darlene: <em>Spontaneous</em> and loves playing <em>jenga</em></li>
+        </ul>
+    </div>
+    <footer>
+        <p class="myParagraph">
+            <a href="http://validator.w3.org/check?uri=https://samirazein20.github.io/CS472-WAP/"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/></a>
+            <a href="http://validator.w3.org/check?uri=https://samirazein20.github.io/CS472-WAP/"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator"/></a>
+            <br>Copyright &copy; 2020 Rachel Aitaru
+        </p>
+
+    </footer>
 
 </div>
 
