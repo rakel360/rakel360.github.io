@@ -29,6 +29,9 @@ abbr{
     border-bottom: 1px dotted black;
     display: inline;
 }
+.bullets {
+  list-style-image: url('recipeImages/pie_icon.gif');
+}
 
 blockquote{
     background-color:#FFFFA8;
