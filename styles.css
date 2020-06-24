@@ -25,15 +25,20 @@ background-image:url("images/6.jpg")
     font-size: 11px;
 }
 
-h1{
+h1,h3{
 color:#FEF9E7;
 }
-h3{
-    color:#FEF9E7;
-}
+
 dt{
     color: #F7EA2C;
 }
 a:link {
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 1.5em;
 }
