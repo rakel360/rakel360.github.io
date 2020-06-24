@@ -35,7 +35,8 @@ blockquote{
 .myParagraph{
     float: right;
 }
-.ordered{
-    list-style-type: circle;
+pre{
+clear: right;
+float: right;
 }
 
