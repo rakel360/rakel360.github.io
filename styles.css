@@ -1,14 +1,14 @@
-body{
+.about-me{
 background-image:url("images/6.jpg")
 }
-.container{
+.container2{
     font-family: Arial, Helvetica, sans-serif;
 	max-width: 840px;
 	margin: 0 auto;
 	padding: 0 16px;
 
 }
-.intro{
+.intro2{
     text-align: center;
 
 }
