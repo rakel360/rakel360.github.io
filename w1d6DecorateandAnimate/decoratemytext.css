@@ -27,12 +27,12 @@ textarea {
     font-size: 12pt;
 }
 
-footer {
-    float: right;
-    position: fixed;
-    bottom: 0;
+#validator {
     margin-top: 20px;
-    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    float: right;
+
 }
 
 button {
@@ -47,3 +47,4 @@ button {
     margin: 5px;
     border-radius: 5px;
 }
+fieldset
