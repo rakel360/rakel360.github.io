@@ -49,6 +49,7 @@ function maxOfThree(a, b, c) {
         max = c;
     }
     return max;
+    
 }
 console.log("Expected output of maxOfThree(2,4,6) is 6  " + myFunctionTest(6, maxOfThree(2, 4, 6)));
 console.assert(maxOfThree(2, 4, 6) === 6, "TEST FAILED");
