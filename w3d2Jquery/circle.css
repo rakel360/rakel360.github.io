@@ -12,3 +12,11 @@ body{
     border-radius:100%;
     float:left;
 }
+
+input[type="button"]{
+    background-color: #A4A400;
+    width: 60px;
+    border-radius: 8%;
+    border-color: #A4A400;
+
+}
